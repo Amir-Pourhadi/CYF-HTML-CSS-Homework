@@ -1,0 +1,37 @@
+<svg width="250"
+     height="230"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Created with ImageBot - http://www.imagebot.com/ -->
+  <g id="imagebot_1">
+    <title>Layer 1</title>
+    <g transform="translate(4 4) translate(-9 -13)"
+       id="imagebot_5">
+      <path transform="rotate(23.5675 131.027 131.513) matrix(0.666667 0 0 0.666667 30.3605 12.4062)"
+            d="M 1.0000000000000568 281.4856116768915 L 1.0000000000000568 75.83476352663818 L 301.00000000000006 75.83476352663818 L 301.00000000000006 281.4856116768915 L 1.0000000000000568 281.4856116768915 z"
+            id="imagebot_2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            stroke="#7f7f7f"
+            fill="#007fff" />
+      <path transform="rotate(28.1459 137.667 106) matrix(0.666667 0 0 0.666667 37 6)"
+            d="M1,225L1,75L301,75L301,225L1,225z"
+            id="imagebot_3"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-dasharray="null"
+            stroke-width="3"
+            stroke="#7f7f7f"
+            fill="#007fff" />
+      <path transform="rotate(28.8571 133.024 116.954) matrix(0.666667 0 0 0.666667 -32.0084 -16.6141)"
+            id="imagebot_4"
+            d="M 189.93820155656545 229.1574395957552 L 189.93820155656545 171.54775185018406 L 305.1575770477077 171.54775185018406 L 305.1575770477077 229.1574395957552 L 189.93820155656545 229.1574395957552 z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-dasharray="null"
+            stroke-width="3"
+            stroke="#003f7f"
+            fill="#007fff" />
+    </g>
+  </g>
+</svg>
