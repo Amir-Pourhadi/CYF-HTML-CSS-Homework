@@ -29,3 +29,7 @@ header nav ul li a {
 header nav ul li a:hover {
   color: orange;
 }
+
+article img {
+  width: 90%;
+}
