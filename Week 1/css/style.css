@@ -15,14 +15,20 @@
   margin: 20px 20vw;
 }
 
-header nav ul {
-  display: flex;
-  justify-content: space-around;
+.list {
   list-style: none;
 }
 
-header nav ul li a {
+a {
   text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
   color: #555;
 }
 
@@ -32,4 +38,8 @@ header nav ul li a:hover {
 
 article img {
   width: 90%;
+}
+
+footer i {
+  color: black;
 }
