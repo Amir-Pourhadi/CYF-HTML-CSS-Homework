@@ -16,9 +16,19 @@
 
 /* --------------------------------- header --------------------------------- */
 
+header {
+  background: url('../images/header.jpg');
+  background-attachment: fixed;
+}
+
+header img{
+  width: 70px;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 header nav ul li a {
