@@ -8,20 +8,13 @@
  */
 
 * {
+  font-size: 18px;
   font-family: roboto, arial, helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-.container {
-  margin: 20px 20vw;
-}
-
-.list {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
+/* --------------------------------- header --------------------------------- */
 
 header nav ul {
   display: flex;
@@ -36,10 +29,86 @@ header nav ul li a:hover {
   color: orange;
 }
 
+/* ---------------------------------- main ---------------------------------- */
+
+.container {
+  margin: 20px 20vw;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 article img {
   width: 90%;
 }
 
-footer i {
-  color: black;
+/* --------------------------------- Footer --------------------------------- */
+
+footer {
+  background: url("../images/footer.jpg");
+  background-attachment: fixed;
+  padding: 30px 0;
+}
+
+footer,
+footer a {
+  color: #eee;
+}
+
+footer i[class$="linkedin"] {
+  color: #0a66c2;
+}
+footer i[class$="facebook"] {
+  color: #1877f2;
+}
+footer i[class$="twitter"] {
+  color: #1da1f2;
+}
+footer i[class$="pinterest"] {
+  color: #e60023;
+}
+footer i[class$="instagram"] {
+  color: #f30006;
+}
+footer i[class$="youtube"] {
+  color: #ff0000;
+}
+
+footer main {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer main label {
+  display: block;
+}
+
+footer > section {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.social-buttons {
+  max-width: 250px;
+}
+
+.social-buttons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.social-buttons ul li {
+  padding: 0 15px;
+}
+
+.social-buttons ul li i {
+  padding: 10px 0;
+  font-size: 40px;
 }
