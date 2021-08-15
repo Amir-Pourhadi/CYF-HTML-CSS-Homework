@@ -12,33 +12,35 @@
   <body>
     <header>
       <nav>
-        <ul class="list">
+        <ul class="list nav-links">
           <li>
             <a href="#">
-              <img src="./images/logo.png" alt="Company logo" />
+              <img class="logo-img" src="./images/logo.png" alt="Company logo" />
             </a>
           </li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Features</a></li>
+          <li><a class="nav-link" href="#">home</a></li>
+          <li><a class="nav-link" href="#">about us</a></li>
+          <li><a class="nav-link" href="#">contact us</a></li>
+          <li><a class="nav-link" href="#">features</a></li>
         </ul>
       </nav>
     </header>
     <div class="container">
       <main>
-        <h1>Name of the blog</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem dolor exercitationem tenetur! Nesciunt quidem
-          tempore facere odit maxime magnam dolorem perspiciatis aliquid, inventore enim.
-        </p>
         <article>
-          <h2>Name of the Article</h2>
+          <h1 class="title">Name of the blog</h1>
+          <p class="desc">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem dolor exercitationem tenetur! Nesciunt quidem
+            tempore facere odit maxime magnam dolorem perspiciatis aliquid, inventore enim.
+          </p>
+        </article>
+        <article>
+          <h2 class="title">Name of the Article</h2>
           <figure>
-            <img src="./images/sample.jpg" alt="Sample image" />
-            <figcaption>Sample Photo</figcaption>
+            <img class="image" src="./images/sample.jpg" alt="Sample image" />
+            <figcaption class="img-desc">Sample Photo</figcaption>
           </figure>
-          <p>
+          <p class="desc">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque animi nihil corporis, odio sit deleniti
             voluptas mollitia error totam delectus quaerat, voluptates repellendus minus tempora aliquid unde iure
             aspernatur, reiciendis fuga ratione? Aut, reiciendis corporis. Iusto vitae, quisquam nulla sed voluptatum
@@ -47,12 +49,12 @@
           </p>
         </article>
         <article>
-          <h2>Name of the Article</h2>
+          <h2 class="title">Name of the Article</h2>
           <figure>
-            <img src="./images/sample.jpg" alt="Sample image" />
-            <figcaption>Sample Photo</figcaption>
+            <img class="image" src="./images/sample.jpg" alt="Sample image" />
+            <figcaption class="img-desc">Sample Photo</figcaption>
           </figure>
-          <p>
+          <p class="desc">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque animi nihil corporis, odio sit deleniti
             voluptas mollitia error totam delectus quaerat, voluptates repellendus minus tempora aliquid unde iure
             aspernatur, reiciendis fuga ratione? Aut, reiciendis corporis. Iusto vitae, quisquam nulla sed voluptatum
@@ -61,12 +63,12 @@
           </p>
         </article>
         <article>
-          <h2>Name of the Article</h2>
+          <h2 class="title">Name of the Article</h2>
           <figure>
-            <img src="./images/sample.jpg" alt="Sample image" />
-            <figcaption>Sample Photo</figcaption>
+            <img class="image" src="./images/sample.jpg" alt="Sample image" />
+            <figcaption class="img-desc">Sample Photo</figcaption>
           </figure>
-          <p>
+          <p class="desc">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque animi nihil corporis, odio sit deleniti
             voluptas mollitia error totam delectus quaerat, voluptates repellendus minus tempora aliquid unde iure
             aspernatur, reiciendis fuga ratione? Aut, reiciendis corporis. Iusto vitae, quisquam nulla sed voluptatum
@@ -80,19 +82,17 @@
       <main>
         <section>
           <h3>Enrollment</h3>
-          <form>
+          <form class="enroll-form">
             <div class="name-input">
-              <label for="name">Enter your name</label>
-              <input id="name" type="text" placeholder="User Name" />
+              <input type="text" placeholder="User Name" />
             </div>
             <div class="email-input">
-              <label for="email">Enter your Email address</label>
-              <input id="email" type="email" placeholder="Email" />
+              <input type="email" placeholder="Email" />
             </div>
             <input type="submit" />
           </form>
         </section>
-        <section>
+        <section class="site-map">
           <h3>Site Map</h3>
           <ul class="list">
             <li><a href="#">Home</a></li>
@@ -103,24 +103,24 @@
         </section>
         <section class="social-buttons">
           <h3>Social Media</h3>
-          <ul class="list">
-            <li>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+          <ul class="list social-list">
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-linkedin"></i></a>
             </li>
-            <li>
-              <a href="#"><i class="fab fa-facebook"></i></a>
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-facebook"></i></a>
             </li>
-            <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-twitter"></i></a>
             </li>
-            <li>
-              <a href="#"><i class="fab fa-pinterest"></i></a>
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-pinterest"></i></a>
             </li>
-            <li>
-              <a href="#"><i class="fab fa-instagram"></i></a>
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-instagram"></i></a>
             </li>
-            <li>
-              <a href="#"><i class="fab fa-youtube"></i></a>
+            <li class="social-link">
+              <a href="#"><i class="social-icon fab fa-youtube"></i></a>
             </li>
           </ul>
         </section>

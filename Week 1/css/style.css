@@ -12,30 +12,34 @@
   font-family: roboto, arial, helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  user-select: none;
 }
 
 /* --------------------------------- header --------------------------------- */
 
 header {
-  background: url('../images/header.jpg');
+  background: url("../images/header.jpg");
   background-attachment: fixed;
 }
 
-header img{
+.logo-img {
   width: 70px;
 }
 
-header nav ul {
+.nav-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
-header nav ul li a {
+.nav-link {
   color: #555;
 }
 
-header nav ul li a:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: orange;
 }
 
@@ -53,14 +57,36 @@ a {
   text-decoration: none;
 }
 
-article img {
+article {
+  margin: 35px 0;
+}
+
+.image {
   width: 90%;
+  border-radius: 15px;
+  box-shadow: 25px 20px 30px 20px rgba(44, 150, 211, 0.5);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.img-desc {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.desc {
+  text-align: justify;
 }
 
 /* --------------------------------- Footer --------------------------------- */
 
 footer {
   background: url("../images/footer.jpg");
+  background-repeat: round;
   background-attachment: fixed;
   padding: 30px 0;
 }
@@ -73,18 +99,23 @@ footer a {
 footer i[class$="linkedin"] {
   color: #0a66c2;
 }
+
 footer i[class$="facebook"] {
   color: #1877f2;
 }
+
 footer i[class$="twitter"] {
   color: #1da1f2;
 }
+
 footer i[class$="pinterest"] {
   color: #e60023;
 }
+
 footer i[class$="instagram"] {
   color: #f30006;
 }
+
 footer i[class$="youtube"] {
   color: #ff0000;
 }
@@ -94,31 +125,56 @@ footer main {
   justify-content: space-around;
 }
 
-footer main label {
-  display: block;
-}
-
 footer > section {
   text-align: center;
   font-size: larger;
   font-weight: bold;
 }
 
+footer > main > section > h3 {
+  padding: 15px;
+}
+
+.enroll-form {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer input {
+  background-color: transparent;
+  color: wheat;
+  outline: none;
+  width: 80%;
+}
+
+.site-map {
+  text-align: center;
+}
+
+.site-map ul {
+  height: 150px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
 .social-buttons {
   max-width: 250px;
 }
 
-.social-buttons ul {
+.social-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.social-buttons ul li {
+.social-link {
   padding: 0 15px;
 }
 
-.social-buttons ul li i {
+.social-icon {
   padding: 10px 0;
   font-size: 40px;
 }
