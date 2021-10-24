@@ -47,6 +47,7 @@ header {
 
 .container {
   margin: 20px 20vw;
+  text-align: center;
 }
 
 .list {
@@ -58,7 +59,8 @@ a {
 }
 
 article {
-  margin: 35px 0;
+  margin: 80px 0;
+
 }
 
 article:first-child {
@@ -184,4 +186,8 @@ footer input {
 .social-icon {
   padding: 10px 0;
   font-size: 40px;
+}
+
+.copyright {
+  margin-top: 50px;
 }
