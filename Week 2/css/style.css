@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-  padding: 0 1rem;
+  padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
 }
@@ -34,23 +34,23 @@ a {
 }
 
 .navigation > .content {
-  height: 4.5rem;
+  height: 4.375rem;
 }
 
 .navigation .logo {
-  height: 4.5rem;
+  height: 4.375rem;
 }
 
 .navigation .links {
   float: right;
   color: #838994;
-  font-size: 1rem;
+  font-size: 1.04rem;
   margin-top: 1.7rem;
 }
 
 .navigation .links li {
   display: inline-block;
-  margin-left: 1.5rem;
+  margin-left: 1.563rem;
 }
 
 .navigation .links li.active {
@@ -60,5 +60,49 @@ a {
 
 .navigation .links li:hover {
   color: #333333;
+}
+
+/* Introduction Section */
+
+.introduction {
+  background: url("../img/first-background.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction h1,
+.introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+/**
+ * The buttons
+ */
+.introduction .buttons {
+  color: white;
+  text-align: center;
+  margin-top: 1.563rem;
+}
+
+.introduction .half {
+  width: 49%;
+  padding: 0 0.938rem;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 1.125rem;
+  line-height: 1.2;
 }
 
