@@ -167,9 +167,8 @@ button:hover {
 .social {
   background-color: #fff;
   overflow: auto;
-  padding-bottom: 9.375rem;
-  text-align: center;
   padding-bottom: 0;
+  text-align: center;
 }
 
 .social hr {
