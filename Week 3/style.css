@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  background-color: #e9c46a;
+  font-family: "Lobster", cursive;
+  color: #264653;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about,
+.products,
+.navigation,
+.header-top {
+  margin-bottom: 64px;
+}
+
+section,
+header,
+footer {
+  max-width: 1700px;
+  margin: auto;
+}
+
+/* header style */
+
+.header-top {
+  background-color: #f4a261;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.logo {
+  max-width: 50%;
+  max-height: 250px;
+}
+
+.contact-button {
+  margin-top: 24px;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: inherit;
+  color: inherit;
+  background-color: #e76f51;
+  border: medium solid #2a9d8f #264653 #264653 #2a9d8f;
+  border-radius: 24px;
+}
+
+.navigation {
+  background-color: #f4a261;
+  width: 100%;
+}
+
+.navigation > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 16px 0;
+  margin: 10px;
+}
+
+.navigation > ul > li {
+  padding: 1rem;
+  background-color: #e76f51;
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+.navigation > ul > li > a {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+/* about section style */
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  background-color: #f4a261;
+  padding: 1rem 5%;
+  margin-bottom: 1rem;
+}
+
+.title {
+  background-color: #e76f51;
+  padding: 1rem 5%;
+  border-radius: 10px;
+}
+
+.image-carousel {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e76f51;
+  padding: 5%;
+}
+
+.main-image {
+  width: 100%;
+  border: 5px solid #264653;
+  border-radius: 10px;
+}
+
+.minor-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 6px;
+}
+
+.minor-images > li {
+  max-width: 22.5%;
+  padding-top: 16px;
+}
+
+.minor-images > li > img {
+  max-width: 100%;
+  border: 1px solid #264653;
+  border-radius: 2px;
+}
+
+/* product section style */
+
+.products > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products > ul > li {
+  background-color: #f4a261;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 66.6%;
+  border-radius: 10px;
+}
+
+.products > ul > li > img {
+  max-width: 60%;
+  border: 2px solid #264653;
+  border-radius: 5px;
+}
+
+/* footer style */
+
+#footer {
+  padding: 16px 0;
+  margin-bottom: 0;
+}
+
+#footer > ul {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#footer > ul > li {
+  padding: 0.5rem;
+}
+
+#footer > ul > li > a {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+#footer > p {
+  text-align: left;
+  padding: 0 1rem;
+}
+
+/* styles for larger screens */
+
+@media screen and (min-width: 400px) {
+  #footer > ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #footer > p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navigation > ul {
+    align-items: center;
+  }
+
+  .products > ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .products > ul > li {
+    max-width: 40%;
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .header-top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 24px 32px;
+  }
+
+  .contact-button {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  .navigation > ul {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .description {
+    padding: 1rem;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    width: 33%;
+  }
+
+  .image-carousel {
+    width: 66%;
+  }
+
+  .products > ul {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .description h1 {
+    font-size: 2.5rem;
+  }
+
+  .description h3 {
+    font-size: 1.75rem;
+  }
+
+  .description p {
+    font-size: 1.25rem;
+  }
+
+  .products h2 {
+    font-size: 2rem;
+  }
+
+  .products p {
+    font-size: 1.5rem;
+  }
+
+  #footer p {
+    font-size: 1.25rem;
+  }
+}
